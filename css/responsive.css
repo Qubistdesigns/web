@@ -1,0 +1,302 @@
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1024px) {    
+ /*navbar*/
+    .navbar .navbar-nav a{
+        font-size: 10px;
+      }
+    .navbar .nav-item i {
+        font-size: 10px;
+    }
+/*introduction*/
+    .introduction .col-lg-7 h6{
+        margin-top: 25%;
+    } 
+    .introduction .col-lg-7 p {
+        font-size:3rem;
+        padding-bottom:7%;
+    }
+/*ABOUT SECTION*/
+    #aboutus h1{
+        font-size: 6em;
+    }
+    .tabcontent h3{
+        font-size: 16px;
+    }
+/*portfolio*/
+    .portfolio h1{
+        color: white;
+        padding: 32% 0 0 11%;	
+    }
+  .portfolio p{
+        margin: 0 11% 0 11%;
+    }
+  .res{
+	    max-width: 33.33%;
+        height: 170px !important;
+    }
+/*poetfolio2*/
+.res1{
+   
+  height: 250px;
+  
+}
+/*contactform*/
+    .contactform .col-lg-6{
+        float: left;
+        padding:5% 0 0 8%;
+    } 
+    .btn1 {
+        padding: 12px 11%;
+        font-size: 17px;
+    }
+    .contactform h1 {
+    font-size: 2em;
+      }
+
+ 
+      
+}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 980px) {
+/*introduction*/
+    .introduction .col-lg-7 h6{
+        margin-top: 10%;
+    } 
+
+    .introduction .col-lg-7 p {
+        font-size:2rem;
+        padding-bottom:3%;
+    }
+    .mylogo{	
+       display: none;
+        
+    }
+/*ABOUT SECTION*/
+    #aboutus h1{
+        color: white;
+        font-size: 4em;
+        text-transform: capitalize;
+    }
+    .myphoto{	
+	    display: none;
+    }
+    #aboutus .col-lg-6{
+        height: auto;
+    }
+    .tabcontent h3{
+        font-size: 11px;
+    }
+/*portfolio*/
+    .port{
+        margin: 5% 0 0 15%;
+    }
+  
+    .portfolio h1{
+        color: white;
+        padding: 5% 0 0 14%;	
+    }
+    .portfolio p{
+        margin: 0 11% 5% 14%;
+    }
+    .res{
+        max-width: 33.33%;
+        height: 220px !important;
+    }
+/*portfolio*/
+    .portfolio1 .col-lg-3{
+        max-width: 33.33%;
+        height: 200px;
+    } 
+/*poetfolio2*/
+.res1{
+   height: 305px;
+    }
+/*sales*/
+    #sales .col-lg-3{
+        max-width: 33.33%;
+        height: 200px;
+    }
+    #sales p{
+        color: inline-block;
+        padding: 0% 0 5% 15%;
+        
+      }
+/*contactform*/
+    .contactform .col-lg-6{
+        float: left;
+        padding:5% 0 0 16%;
+    } 
+    .contactform h1 {
+    font-size: 2em;
+    }
+    .btn1 {
+        padding: 12px 16%;
+        font-size: 20px;
+    } 
+    
+    /*Salepage*/
+    .resp{
+        
+      margin:2% 0 0 5%;
+        width: 27%;
+        height: 155px !important;
+    }
+    
+}
+
+
+/* Mobile Devices */
+@media only screen and (max-width : 640px) {
+/*introduction*/
+    .introduction .col-lg-7 h6{
+        margin-top: 19%;
+    } 
+
+/*aboutus*/
+    #aboutus h1{
+      
+        font-size: 3em;
+       
+    }
+    .tabcontent h3{
+        font-size: 5px;
+    }
+/*portfolio*/
+    .res{
+        max-width: 33.33%;
+        height: 130px;
+    }     
+    /*portfolio*/
+    .portfolio1 .col-lg-3{
+        max-width: 33.33%;
+        height: 125px;
+    }  
+
+    .portfolio h1{
+       font-size: 16px;
+        padding: 5% 0 0 12%;	
+    }
+    .portfolio p{
+        margin: 0 11% 5% 12%;
+        font-size: 10px;
+    }
+/*poetfolio2*/
+.res1{
+    height: 150px;
+     }
+/*sales*/
+    #sales .col-lg-3{
+        max-width: 33.33%;
+        height: 125px;
+    }  
+
+    #sales h1{
+        font-size: 16px;
+         padding: 5% 0 0 12%;	
+     }
+    
+    #sales p{
+        font-size: 10px;
+        padding: 0% 5% 5% 12%;
+        
+      }
+/*contactform*/
+
+    .btn1 {
+        padding: 12px 0 12px 25%;
+        font-size: 18px;
+    }
+    .contactform h1 {
+        font-size: 1.3em;
+        }  
+
+/*Salepage*/
+    .resp{  
+        margin:2% 0 0 5%;
+        width: 27%;
+        height: 65px !important;
+      }
+      #portfoliop h4{
+        
+      margin: 10% 0 3% 0;
+      
+    } 
+          
+}
+
+/* Smaller Mobile Devices */
+@media only screen and (max-width : 480px) {
+/*introduction*/
+    .introduction .col-lg-7 h6{
+        margin-top: 22%;
+    } 
+/*portfolio*/
+.res{
+        max-width: 33.33%;
+        height: 110px !important;
+    } 
+/*portfolio1*/ 
+    .res1{
+        height: 150px;
+         }
+/*sales*/
+    #sales .col-lg-3{
+        max-width: 33.33%;
+        height: 100px;
+    } 
+/*contactform*/
+    .btn1 {
+        padding: 12px 0 12px 10%;
+        font-size: 13px;
+    } 
+    
+}
+
+/* Smallest Mobile Devices */
+@media only screen and (max-width : 320px) {
+/*introduction*/
+.introduction .col-lg-7 h6{
+    margin-top: 25%;
+}
+.introduction .col-lg-7 p {
+    padding-bottom:6%;
+}
+/*ABOUT SECTION*/
+#aboutus h1{
+    font-size: 4em;
+}
+    /*portfolio*/
+    .res{
+        max-width: 33.33%;
+        height: 80px !important;
+    } 
+/*portfolio*/
+    .portfolio1 .col-lg-3{
+        max-width: 33.33%;
+        height: 100px;
+    } 
+ /*sales*/
+    #sales .col-lg-3{
+        max-width: 33.33%;
+        height: 100px;
+    }  
+   
+/*contactform*/
+    .btn1 {
+        padding: 12px 0 12px 8%;
+        font-size: 11px;
+    } 
+/*salepage*/
+    .resp{  
+        margin:2% 0 0 5%;
+        width: 27%;
+        height:60px !important;
+      }
+
+}
+
+
+

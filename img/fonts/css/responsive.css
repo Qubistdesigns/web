@@ -1,0 +1,136 @@
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1024px) {    
+    /*portfolio */
+    select{
+        width: 100%;
+        background-color:black !important;
+        color: #ffffff;
+        padding: 8px 16px;
+        border: 1px solid transparent;
+        border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent !important;
+        cursor: pointer;
+        user-select: none;
+        font-size: 1.5em;
+      }
+    
+    /* sales*/
+    
+    
+}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 980px) {
+    
+    
+   /*ABOUT SECTION*/
+    #about{padding-top: 80px;
+    }
+ 
+    /*COLLUPSABLE NAVIGATION MENU*/
+    .navbar-header {float: none;}
+    .navbar-left,.navbar-right {float: none !important;}
+    .navbar-toggle {display: block;}
+    .navbar-collapse.collapse {display: none!important;}
+	.navbar-nav>li {
+        float: none;
+        padding-left: 30px;
+        overflow: hidden;
+    }
+    
+    .collapse.in{display:block !important;}
+
+    /* PORTFOLIO SECTION */
+    select{
+      -webkit-appearance: none;
+        width: 100%;
+        background-color:black !important;
+        color: #ffffff;
+        padding: 8px 16px;
+        border: 1px solid transparent;
+        border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent !important;
+        cursor: pointer;
+        user-select: none;
+        font-size: 1.5em;
+      }
+    
+    .myphoto{text-align: center;}
+
+    /*sales */
+    .tab button { 
+        font-size: 9px;
+        padding: 2% 0;
+        }
+    /*icon bar */
+        .icon-bar1 a {
+          
+          padding: 12px;
+          
+          font-size: 15px;
+        }
+}
+
+
+/* Mobile Devices */
+@media only screen and (max-width : 640px) {
+    
+    h2 {font-size: 1.9em;}
+    h3{font-size: 1.5em}
+    h4{font-size: 1.1em;}
+    #about{padding-top: 40px;}
+    /* PORTFOLIO SECTION */
+    #portfolio h5{font-size: 1.9em;}
+    #portfolio h2{font-size: 1.9em;}
+    .myphoto{display: none;}
+    select{
+        width: 100%;
+        background-color:black !important;
+        color: #ffffff;
+        padding: 8px 16px;
+        border: 1px solid transparent;
+        border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent !important;
+        cursor: pointer;
+        user-select: none;
+        font-size: 1.5em;
+      }
+
+    
+          
+}
+
+/* Smaller Mobile Devices */
+@media only screen and (max-width : 480px) {
+    /* PORTFOLIO SECTION */
+    select{
+        width: 100%;
+        background-color:black !important;
+        color: #ffffff;
+        padding: 8px 16px;
+        border: 1px solid transparent;
+        border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent !important;
+        cursor: pointer;
+        user-select: none;
+        font-size: 1.5em;
+      }
+}
+
+/* Smallest Mobile Devices */
+@media only screen and (max-width : 320px) {
+    /* PORTFOLIO SECTION */
+    select{
+        width: 100%;
+        background-color:black !important;
+        color: #ffffff;
+        padding: 8px 16px;
+        border: 1px solid transparent;
+        border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent !important;
+        cursor: pointer;
+        user-select: none;
+        font-size: 1.5em;
+      }
+   
+
+}
+
+
