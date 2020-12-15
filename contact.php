@@ -1,6 +1,6 @@
 <?php
  
- $to = "amreenirsa@gmail.com ";
+ $to = "Qubistdesigns@yahoo.com ";
  
  $subject = "An Inquiry1";
 
