@@ -10,7 +10,8 @@ img{
 
 
 .navbar {		
-	background: black !important;
+	background: rgb(73,6,102);
+  background: linear-gradient(90deg, rgba(73,6,102,1) 0%, rgba(114,14,158,1) 35%, rgba(81,28,105,1) 100%);
 	color: white !important;
   padding-left: 16px;
 	padding-right: 16px;
@@ -40,7 +41,7 @@ img{
 }
 .navbar .navbar-brand b {
 	font-weight: bold;
-	color: red;
+	color: #d29ae9;
 }
 
 .navbar .navbar-nav a{
@@ -49,10 +50,10 @@ img{
 }
 
 .navbar .navbar-nav a:hover, .navbar .navbar-nav a:focus {
-	color: red !important;
+	color:#d29ae9 !important;
 }
 .navbar .navbar-nav a.active, .navbar .navbar-nav a.active:hover {
-	color: red !important;
+	color: #d29ae9 !important;
   background: transparent !important;
   transition: .3s;
 }
@@ -77,20 +78,20 @@ img{
 }
 .navbar-toggler{
   
-  background: -moz-linear-gradient(89deg, rgba(150,6,6,1) 0%, rgba(227,0,0,1) 46%, rgba(150,6,6,1) 100%) !important; /* ff3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(150,6,6,1)), color-stop(54%, rgba(227,0,0,1)), color-stop(100%, rgba(150,6,6,1))) !important; 
+  background: rgb(73,6,102);
+  background: linear-gradient(90deg, rgba(73,6,102,1) 0%, rgba(114,14,158,1) 35%, rgba(81,28,105,1) 100%);
 	background-image: none;
 	border: 1px solid white !important;
 	border-radius: 2px !important;
   }
   .navbar-toggler:hover{
     background:white important;
-    border-color: red;
+    border-color: #490666;
     
     } 
   .navbar-toggler.active{
       background:white important;
-      border-color: red;
+      border-color: #490666;
       
       } 
   span.navbar-toggler-icon{
@@ -114,30 +115,32 @@ img{
 } 
 
 
-.introduction .col-lg-7 {
+.introduction .col-lg-6 {
   float: left;
   padding-left: 2%;
   
   
 }
-.introduction .col-lg-5 {
+.introduction .col-lg-6 {
   float: left;  
   margin:0 0 0 0;
   height: auto;
   padding: 0px;
  
 }
-.introduction .col-lg-7 h6{
+.introduction .col-lg-6 h6{
   color: white;
   margin-top: 15%;
+  padding-left: 1%;
 
  
 }
 
-.introduction .col-lg-7 p {
-  font-size:5rem;
+.introduction .col-lg-6 p {
+  font-size:4.5rem;
   font-weight: bold;
   letter-spacing: 0.10rem;
+  text-transform: capitalize;
   text-align: left;
   overflow: hidden;
   font-family: 'Montserrat', sans-serif;
@@ -145,32 +148,33 @@ img{
   line-height: 1;
   padding-bottom:10%;
   color: white;
+  padding-left: 1%;
  
 }
 
 
-.introduction .col-lg-7 p span.typed-text {
+.introduction .col-lg-6 p span.typed-text {
   font-weight: normal;
-  background-color: red;
-    background-image: linear-gradient(45deg, red, maroon);
+  background: rgb(73,6,102);
+  background: linear-gradient(90deg, rgba(73,6,102,1) 0%, rgba(114,14,158,1) 35%, rgba(149,79,179,1) 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
 
-  color: red!important;
+  color: #490666!important;
 }
 
-.introduction .col-lg-7 p span.cursor {
+.introduction .col-lg-6 p span.cursor {
   display: inline-block;
-  background-color:  maroon;
+  background-color:  #490666;
   margin-left: 0.1rem;
   width: 6px;
   animation: blink 1s infinite;
 }
 
-.introduction .col-lg-7 p span.cursor.typing {
+.introduction .col-lg-6 p span.cursor.typing {
   animation: none;
 }
 @keyframes blink {
@@ -181,10 +185,10 @@ img{
   100%  { background-color: #ccc; }
 }
 .mylogo{	
-	width: 80%;
+	width: 100%;
 	max-width: 600px;
   height:auto;
-  padding:20% 0% 0% 15%;
+  padding:30% 0% 0% 15%;
 	
 }
 /*===========================aboutus==============*/ 
@@ -271,7 +275,7 @@ img{
 }
 .tab button.active {
 	
-	color:red;
+	color:#490666;
 	transition: .3s;
 	
 	
@@ -280,8 +284,8 @@ img{
 
 .tab button.active::after {
 	width: 100%;
-	color:red !important;
-	background:red ;
+	color:#490666 !important;
+	background:#490666 ;
 	
     
 }
@@ -336,7 +340,7 @@ typ1{
   color: white;	
 }
 .portfolio a:hover{
-  color: red;	
+  color: #490666;	
 }
 .portfolio h6{
   color: white;	
@@ -808,10 +812,10 @@ modal-content {
   .button1{
     cursor: pointer;
     width: 100%;
-    background: -moz-linear-gradient(87deg, rgba(188,8,8,1) 0%, rgba(255,0,0,1) 50%, rgba(188,8,8,1) 100%); /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(188,8,8,1)), color-stop(50%, rgba(255,0,0,1)), color-stop(100%, rgba(188,8,8,1))); 
+    background: rgb(73,6,102);
+    background: linear-gradient(90deg, rgba(73,6,102,1) 0%, rgba(114,14,158,1) 35%, rgba(81,28,105,1) 100%);
     border-radius: 0px 0px 4px 4px;
-    border-color: red;
+    border-color: #490666;
     display: block;
     text-align: center;
     padding: 6px;
@@ -944,7 +948,7 @@ modal-content {
 }
 
 .col-lg-5 a:hover {
-  color: red !important;
+  color: #490666 !important;
 }
   
 .modal-content .col-sm-4{
@@ -968,7 +972,7 @@ modal-content {
   display: inline-block;
 }
 #sales a:hover{
-  color: red;	
+  color: #490666;	
 }
 
 #sales h1{
@@ -1108,8 +1112,9 @@ textarea {
     color: white;
   }
   .email {
-    background: #dd4b39;
+    background: #720e9e;
     color: white;
+    margin-top: 90px;
   }
   .instagram {
     background: #3f729b;
@@ -1126,10 +1131,10 @@ textarea {
   .submit {
     
     cursor: pointer;
-    background: -moz-linear-gradient(87deg, rgba(188,8,8,1) 0%, rgba(255,0,0,1) 50%, rgba(188,8,8,1) 100%); /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(188,8,8,1)), color-stop(50%, rgba(255,0,0,1)), color-stop(100%, rgba(188,8,8,1))); 
+    background: rgb(73,6,102);
+    background: linear-gradient(90deg, rgba(73,6,102,1) 0%, rgba(114,14,158,1) 35%, rgba(81,28,105,1) 100%);
     border-radius: 0px 0px 4px 4px;
-    border-color: red;
+    border-color: #490666;
     display: block;
     text-align: center;
     padding: 16px;
@@ -1274,7 +1279,7 @@ PORTFOLIO FILTER
   overflow: scroll;
   background-color:#EBEDEA !important;
   border: 1px salmon;
-  padding: 10px 0 0 10% ;
+  padding: 10px 0 0 4% ;
  
   
   
@@ -1282,11 +1287,13 @@ PORTFOLIO FILTER
 
 .ssi-imgBox img{
   height:auto !important;
+  float: left;
   }
 
 .ssi-imgBox{
  max-height:600px !important;
   overflow: hidden;
+  float: left;
   
 }
 /*================================
@@ -1295,12 +1302,12 @@ dropbutton
 
 select{
   width: 100%;
-  background: -moz-linear-gradient(87deg, rgba(188,8,8,1) 0%, rgba(255,0,0,1) 50%, rgba(188,8,8,1) 100%); /* ff3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(188,8,8,1)), color-stop(50%, rgba(255,0,0,1)), color-stop(100%, rgba(188,8,8,1))); 
+  background: rgb(73,6,102);
+  background: linear-gradient(90deg, rgba(73,6,102,1) 0%, rgba(114,14,158,1) 35%, rgba(81,28,105,1) 100%);
   color: #ffffff;
   padding: 8px 16px;
-  border: 1px solid red;
-  border-color: red !important;
+  border: 1px solid #490666;
+  border-color: #490666 !important;
   cursor: pointer;
   user-select: none;
   font-size: 1.5em;
